@@ -12,6 +12,7 @@ The following steps are provided as an easy guide to run the file for testing pu
 4. Run the Script: Open the command prompt and navigate to the directory where sync_task_final.py is located.
 
 5. Execute the Script: Run the script using the following command:
+
       python sync_task_final.py /path/to/Source /path/to/Replica sync_interval log.txt
 
 Replace /path/to/Source with the actual path to your 'Source' folder, /path/to/Replica with the actual path to your 'Replica' folder, and sync_interval with the synchronization interval in seconds. For example, if you want to sync every 10 seconds, use 10. Make sure you use a positive number greater than 0. The log.txt file will store synchronization logs.
